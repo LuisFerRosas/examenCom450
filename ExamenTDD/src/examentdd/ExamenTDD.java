@@ -40,11 +40,17 @@ public class ExamenTDD {
     }
     public String obtenerAccion(boolean matriculado, boolean registrado, boolean esDocente , boolean cursoObligatorio){
         if(!matriculado){
-            if(registrado && esDocente && cursoObligatorio){
+            if(registrado && esDocente){
+                if(cursoObligatorio){
                 return"nodestinado";
+                }else{
+                    return "matricularse";
+                } 
             }
+           
         }
         
         return "";
     }
+   
 }
