@@ -17,5 +17,10 @@ public class ExamenTDD {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+    public String obtenerAccion(boolean matriculado){
+        if(matriculado){
+            return "yamatriculado";
+        }
+    return "";
+    }
 }
