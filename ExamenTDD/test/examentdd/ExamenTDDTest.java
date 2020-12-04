@@ -30,4 +30,10 @@ public class ExamenTDDTest {
             String resultado =operacion.obtenerAccion(true,true);
             assertEquals("yamatriculado",resultado);
     }
+    @Test
+    public void pregunta_3(){ 
+            String resultado =operacion.obtenerAccion(false,true,true);
+            assertEquals("nodestinado",resultado);
+    }
+    
 }

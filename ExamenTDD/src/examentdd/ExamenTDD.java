@@ -36,6 +36,15 @@ public class ExamenTDD {
             return "yamatriculado";
         }
         
-    return "";
+        return "";
+    }
+    public String obtenerAccion(boolean matriculado, boolean registrado, boolean esDocente){
+        if(!matriculado){
+            if(registrado && esDocente){
+                return"nodestinado";
+            }
+        }
+        
+        return "";
     }
 }
