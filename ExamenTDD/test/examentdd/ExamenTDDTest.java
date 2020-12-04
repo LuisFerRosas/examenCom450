@@ -32,7 +32,7 @@ public class ExamenTDDTest {
     }
     @Test
     public void pregunta_3(){ 
-            String resultado =operacion.obtenerAccion(false,true,true);
+            String resultado =operacion.obtenerAccion(false,true,true,true);
             assertEquals("nodestinado",resultado);
     }
     
