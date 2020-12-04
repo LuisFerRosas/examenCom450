@@ -10,6 +10,10 @@ package examentdd;
  * @author Fernando
  */
 public class ExamenTDD {
+    
+    public ExamenTDD() {
+        
+    }
 
     /**
      * @param args the command line arguments
@@ -17,10 +21,21 @@ public class ExamenTDD {
     public static void main(String[] args) {
         // TODO code application logic here
     }
+    
+    
     public String obtenerAccion(boolean matriculado){
         if(matriculado){
             return "yamatriculado";
         }
+    return "";
+    }
+    public String obtenerAccion(boolean matriculado, boolean registrado){
+        if(matriculado && registrado){
+            return "yamatriculado";
+        }else if(matriculado){
+            return "yamatriculado";
+        }
+        
     return "";
     }
 }

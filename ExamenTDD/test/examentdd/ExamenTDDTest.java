@@ -25,5 +25,9 @@ public class ExamenTDDTest {
             String resultado =operacion.obtenerAccion(true);
             assertEquals("yamatriculado",resultado);
     }
-    
+    @Test
+    public void pregunta_2(){ 
+            String resultado =operacion.obtenerAccion(true,true);
+            assertEquals("yamatriculado",resultado);
+    }
 }
