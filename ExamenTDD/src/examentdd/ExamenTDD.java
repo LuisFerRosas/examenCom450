@@ -52,5 +52,14 @@ public class ExamenTDD {
         
         return "";
     }
+    public String obtenerAccion(boolean matriculado, String estadoRegistro){
+        if(matriculado){
+            if(estadoRegistro.equals("porConfirmar")){
+            return "registrarse";
+            }
+            
+        }
+    return "";
+    }
    
 }

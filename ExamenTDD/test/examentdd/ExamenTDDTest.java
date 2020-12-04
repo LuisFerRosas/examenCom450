@@ -40,5 +40,9 @@ public class ExamenTDDTest {
             String resultado =operacion.obtenerAccion(false,true,true,false);
             assertEquals("matricularse",resultado);
     }
-    
+    @Test
+    public void pregunta_5(){ 
+            String resultado =operacion.obtenerAccion(true,"porConfirmar");
+            assertEquals("registrarse",resultado);
+    }
 }
